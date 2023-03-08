@@ -1,0 +1,29 @@
+.track-record {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  margin: 0.25rem;
+  padding: 25px;
+  
+  text-align: center;
+  font-size: .9rem;
+  font-weight: bold;
+  color: white;
+
+  background: url('./bg-img/record-noun-project.png'), #6c757d;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.track-record p {
+  margin: 0;
+}
+
+.track-record .track-artist {
+  font-size: .9em;
+}
